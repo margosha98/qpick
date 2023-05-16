@@ -1,0 +1,15 @@
+.empty-page {
+  text-align: center;
+  &__title {
+    font-weight: 400;
+    font-size: 1.2em;
+
+    &_link {
+      color: #838383;
+    }
+  }
+
+  &__img {
+    width: 20%;
+  }
+}

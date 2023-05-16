@@ -1,0 +1,47 @@
+@import './scss/all.scss';
+
+html {
+  height: 100%;
+  overflow: scroll;
+}
+
+body {
+  background-color: #eaeaea;
+  justify-content: center;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $background;
+  padding: 0px 140px;
+  width: 1440px;
+  @media (max-width: 1430px) {
+    width: calc(100vw - 40px);
+  }
+
+  @media (max-width: 950px) {
+    margin-top: 15px;
+    padding: 0px 25px;
+  }
+
+  @media (max-width: 650px) {
+    margin-top: 15px;
+    padding: 0px 0px;
+  }
+}
+
+.content {
+  flex-grow: 1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,63 @@
+@import './libs/variables.scss';
+@import './header';
+@import './item';
+@import './category';
+@import './footer';
+@import './buy-item';
+@import './heart-item';
+@import './total';
+@import './cart';
+@import './empty-page';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.h2 {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  img {
+    width: 20px;
+  }
+}
+.link_active {
+  color: $orange;
+}
+
+img {
+  width: 30px;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 18px;
+
+  &_orange {
+    color: $orange;
+  }
+
+  &_black {
+    color: #000;
+  }
+
+  &_gray {
+    color: $gray;
+  }
+}
